@@ -1,0 +1,106 @@
+/* Elemen 6: HTML Background & Color Text */
+/* Elemen 8: HTML Font */
+body {
+    background-color: #f0f2f5;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+    /* Elemen 7: HTML Align (Posisi tengah vertikal & horizontal) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Card Container */
+.card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+    /* Elemen 7: HTML Align (Teks rata tengah) */
+    text-align: center;
+}
+
+/* Styling Gambar Foto Profil (Bulat) */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+h1 {
+    font-size: 22px;
+    margin: 10px 0 5px 0;
+    color: #111111;
+}
+
+h3 {
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+/* Ikon / Tombol Sosial Media */
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #dddddd;
+    transition: 0.2s;
+}
+
+.social-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Date/Time */
+.time-info {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+/* Table */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.info-table th, .info-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    font-size: 13px;
+}
+
+.info-table th {
+    background-color: #007bff;
+    color: white;
+}
